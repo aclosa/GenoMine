@@ -20,6 +20,7 @@ library(clusterProfiler)
 library(org.Hs.eg.db)
 library(gridExtra)
 library(shinyjqui)
+library(grid)
 # options
 
 options(shiny.maxRequestSize=1000*1024^2, spinner.type = 5, spinner.color = "#3D9970")
@@ -235,7 +236,7 @@ shinyApp(
                                hr(),
                                box(title = h4(tagList(shiny::icon("bell"),strong("Contact Us"))), collapsible = FALSE, width = 12,
                                    p(em(tagList(shiny::icon("user"),"Contact : adria.closamosquera@anu.edu.au"))),
-                                   p(a(tagList(shiny::icon("github"),"GitHub Drug Screening"),href="https://github.com/comprna/drug_screening"))
+                                   p(a(tagList(shiny::icon("github"),"GitHub GenoMine"),href="https://github.com/aclosa/GenoMine"))
                                )
                        )
                      )),
