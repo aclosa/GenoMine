@@ -54,3 +54,7 @@ The user can chose the filters to select the group of genes using DE information
 Can select which GO use or make the analysis with all.
 
 ![My Image](images/pathway.png)
+
+## Contact:
+
+*adria.closamosquera@anu.edu.au*
