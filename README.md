@@ -33,7 +33,7 @@ Choose varibale from your info data to colour the clustering groups
 
 ![My Image](images/clustering.png)
 
-Differential Expression:
+##Differential Expression:
 
 Select between two diferent models to perform the DE analysis (DESeq2 or LIMMA).
 You can add a minimun of counts to filter none or low expression genes.
@@ -46,7 +46,7 @@ There are two ouptuts:
 
 ![My Image](images/DE.png)
 
-Pathway analysis:
+##Pathway analysis:
 
 A table from the DE analysis can be uploaded.
 
